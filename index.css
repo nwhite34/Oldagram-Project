@@ -1,0 +1,142 @@
+html,
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+header {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border-bottom: 1px #EDEDED solid;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4px;
+}
+
+#myPic{
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.avatar1 {
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.logo1 {
+    width: 127px;
+    height: 60px;
+    top: 16px;
+    left: 15px;
+    margin-left: 10px;
+}
+
+section {
+    width: 375px;
+    height: 545px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-bottom: 30px #EDEDED solid;
+}
+
+.userInfo {
+    width: 375px;
+    height: 60px;
+    background: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.detailsUser {
+    margin-top: 8px;
+    line-height: 0px;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#firstpic {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.postedImg {
+    width: 375px;
+    height: 375px;
+    position: absolute;
+    margin-top: 60px;
+}
+
+#Name {
+    font-weight: 700px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+}
+
+#location {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    margin-left: 0.5;
+}
+
+.icons {
+    width: 375px;
+    position: absolute;
+    margin-top: 450px;
+
+}
+
+.iconClick {
+    width: 23px;
+    height: 23px;
+    padding-left: 10px;
+}
+
+span {
+    font-weight: 700;
+}
+
+.userData {
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 13px;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.section3 {
+    width: 375px;
+    height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-bottom: 30px #EDEDED solid;
+}
+
+#counter,
+#counter2,
+#counter3 {
+    font-weight: bold;
+}
+
+#imageButton:hover {
+    opacity: 0.5;
+}
+
+.iconClick:hover {
+    opacity: 0.5;
+}
